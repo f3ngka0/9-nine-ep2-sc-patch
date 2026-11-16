@@ -1,0 +1,9 @@
+build/
+work/scn_corpus/
+work/scn_chunks/
+work/scn_chunks_v1/
+work/scn_translated_v1/
+work/scn_errors/
+tools/__pycache__/
+tools/*_out.txt
+*.log

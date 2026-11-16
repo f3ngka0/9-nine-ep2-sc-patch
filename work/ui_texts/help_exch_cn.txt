@@ -1,0 +1,71 @@
+# 立ち絵鑑賞画面ヘルプテキスト
+
+back
+	返回标题画面。
+
+tab_cg
+	前往 CG 鉴赏画面。
+
+tab_sdcg
+	前往 Q版插画（SDCG）鉴赏画面。
+
+tab_scene
+	前往场景回想画面。
+
+tab_music
+	前往影片鉴赏画面。
+
+edit_name	edit_text
+	显示文本框，可输入并显示任意文本。
+
+meswin
+	切换文本框的显示／隐藏状态。
+
+ctrl_move
+	移动所有角色${invoke("bg.getStageIndex")>0?"／背景":""}。拖拽即可	移动鼠标光标所在位置的角色或背景。
+
+ctrl_save
+	将当前状态保存至文件。	按住 Shift 键点击则可临时保存至内存。
+
+ctrl_load
+	从已保存的文件中恢复状态。	按住 Shift 键点击则可恢复内存中临时保存的数据。
+
+ctrl_hide
+	暂时隐藏操作按钮以进入纯鉴赏模式。	（与点击鼠标右键功能相同）
+
+ctrl_capt
+	暂时隐藏操作按钮，	并将当前画面截图保存至文件。
+
+ctrl_mybg
+	加载并显示用户自行指定的背景图片。
+
+ctrl_init
+	将所选角色恢复为初始状态（位置也会重置）。	按住 Shift 键点击则将全部角色初始化为最初状态。
+
+
+cap_dress
+	可更改当前角色的服装。
+cap_pose
+	可更改当前角色的姿势。
+
+cap_face
+	可更改当前角色的表情。
+
+cap_emo
+	可为角色添加情绪特效。
+
+cap_dst
+	可调整当前角色的远近（大小）。
+
+cap_bg
+	可更改背景图片。
+cap_time
+	可更改背景差分（如时间段等）。
+
+char1	char2	char3	char4	char5	char6	char7	char8	char9	char10	char11	char12
+	切换当前操作的角色，再次点击可取消显示。	按住 Shift 键点击则仅显示该角色。
+
+
+HELP_DRAG
+	移动当前选中的角色。按住 Shift 键开始拖拽，	即可解除水平与垂直方向的移动锁定。
+

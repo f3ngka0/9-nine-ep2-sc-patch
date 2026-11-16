@@ -1,0 +1,320 @@
+# コンフィグ画面ヘルプテキスト
+
+#------------------------------------------------------------------------------
+# 共通
+
+page0	page1	page2	page3	page4	page5
+	切换设置分类标签页。
+
+init
+	初始化设置。
+title
+	返回标题画面。
+exit
+	退出游戏。
+back
+	返回上一个画面。
+quit
+	返回鉴赏画面。
+
+#------------------------------------------------------------------------------
+# 言語切り替え
+
+lang_ui	lang_ui_l	lang_ui_r
+	更改界面（UI）使用的语言。
+
+lang_main	lang_man_l	lang_main_r
+	更改游戏正文的主语言。
+
+lang_sub	lang_sub_l	lang_sub_r
+	更改游戏正文的次语言。	与主语言相同或设为关闭时不会显示。
+
+
+#------------------------------------------------------------------------------
+# システム
+
+window	fullscreen
+	切换画面显示尺寸。
+
+noeffect_off	noeffect_on
+	切换是否开启画面特效。
+
+bganim_on	bganim_off
+	切换是否显示 H 场景动画。
+
+rtextcol_on	rtextcol_off
+	切换已读文本是否改变颜色。
+
+rselcol_on	rselcol_off
+	切换已选过的选项是否改变颜色。
+
+curmove_on	curmove_off
+	开启/关闭出现选项或确认对话框时，鼠标光标自动移动的功能。
+
+ezsave_on	ezsave_off
+	开启/关闭位于游戏画面右侧的简易存取档功能。
+
+cdown_on	cdown_off
+	切换是否显示射精倒计时提示。
+
+hsel_s_in	hsel_s_out	hsel_s_ask	hsel_f_in	hsel_f_out	hsel_f_ask
+	切换是否固定射精位置选项，或设为每次询问。
+
+danmen_on	danmen_off
+	切换是否显示断面图特写画面。
+
+facemode_on	facemode_off
+	切换是否显示角色表情头像。（因演出需要，设为关闭时部分场景仍会显示。）
+
+#chareye_on	chareye_off
+#	切换角色是否眨眼。
+chareye_on	chareye_off
+	切换是否开启索菲蒂娅的手部动作演出。
+
+fcamera_on	fcamera_off
+	切换是否开启自由视角功能。（当鼠标光标变为“＋”时拖拽即可启用。）
+
+#------------------------------------------------------------------------------
+# メッセージ
+
+textspeed
+	设置常规模式下的文本显示速度。
+
+atextspeed
+	设置自动模式下的文本显示速度。
+
+autospeed
+	设置自动模式下的自动推进速度。
+
+winopac
+	设置文本框背景图片的不透明度。
+
+fshadow_on	fshadow_off
+	开启/关闭文本的阴影效果。
+
+skipread	skipall
+	切换快进（略过）模式的有效范围。
+
+voicecut_on	voicecut_off
+	切换推进至下段对话时，是否中断正在播放的语音。
+
+autovwait_on	autovwait_off
+	设置自动模式下是否等待当前语音播放完毕再推进。
+
+sample_normal	sample_auto	sample_off
+	切换测试文本示例的显示模式。
+
+wintype_1	wintype_2	sample_wintype
+	选择对话框的样式类型。
+
+#------------------------------------------------------------------------------
+# サウンド
+
+wavevolume
+	调整主音量。
+wave_on	wave_off
+	开启/关闭所有声音播放。
+
+bgmvolume
+	调整 BGM 音量。
+bgm_on	bgm_off
+	开启/关闭 BGM 播放。
+
+downvolume
+	设置语音播放时的 BGM 音量（不可高于 BGM 原音量）。
+bgmdown_on	bgmdown_off
+	开启/关闭语音播放时降低 BGM 音量的功能。
+
+sevolume
+	调整音效音量。
+se_on	se_off
+	开启/关闭音效播放。
+setest
+	试听音效。
+
+hsevolume
+	调整 H 场景特殊音效音量。
+hse_on	hse_off
+	开启/关闭 H 场景特殊音效播放。
+hsetest
+	试听 H 场景特殊音效。
+
+bgvvolume
+	调整 H 场景背景语音（BGV）音量。
+bgv_on	bgv_off
+	开启/关闭 H 场景背景语音（BGV）播放。
+bgvtest
+	试听 H 场景背景语音（BGV）。再次点击即可停止。
+
+voicevolume
+	调整所有角色的全局语音音量。
+voice_on	voice_off
+	开启/关闭语音播放。
+
+#chvoicearea
+#	勾选角色即可单独设置该角色的语音音量。
+
+#autostopse_on	autostopse_off
+#	设置解除略过模式时的音效播放。
+
+#skipstopse_on	skipstopse_off
+#	设置解除自动模式时的音效播放。
+
+stopse_on	stopse_off
+	设置解除略过/自动模式时是否播放提示音效。
+
+bgmtitle_on	bgmtitle_off
+	设置是否显示游戏中当前播放的 BGM 曲名。
+
+sysvovolume
+	调整系统语音音量。
+
+sysvoice_on	sysvoice_off
+	开启/关闭系统语音播放。
+
+sysvotarget	sysvo_up,	sysvo_down
+	切换系统语音的担当角色。
+
+sysvotest
+	试听系统语音。
+
+sysvo_clrvo
+	${SystemVoice.chartype=='5人'?"仅将已通关角色切换为通关后语音模式":"将系统语音切换为通关后语音模式"}。
+
+
+#------------------------------------------------------------------------------
+# ボイス
+
+ch0volume
+	调整${getVoiceTargetName(0)}的语音音量。
+ch1volume
+	调整${getVoiceTargetName(1)}的语音音量。
+ch2volume
+	调整${getVoiceTargetName(2)}的语音音量。
+ch3volume
+	调整${getVoiceTargetName(3)}的语音音量。
+ch4volume
+	调整${getVoiceTargetName(4)}的语音音量。
+ch5volume
+	调整${getVoiceTargetName(5)}的语音音量。
+ch6volume
+	调整${getVoiceTargetName(6)}的语音音量。
+ch7volume
+	调整${getVoiceTargetName(7)}的语音音量。
+ch8volume
+	调整${getVoiceTargetName(8)}的语音音量。
+ch9volume
+	调整${getVoiceTargetName(9)}的语音音量。
+ch10volume
+	调整${getVoiceTargetName(10)}的语音音量。
+ch11volume
+	调整${getVoiceTargetName(11)}的语音音量。
+ch12volume
+	调整${getVoiceTargetName(12)}的语音音量。
+
+
+ch0_chvon	ch0_chvoff
+	开启/关闭${getVoiceTargetName(0)}的语音播放。
+ch1_chvon	ch1_chvoff
+	开启/关闭${getVoiceTargetName(1)}的语音播放。
+ch2_chvon	ch2_chvoff
+	开启/关闭${getVoiceTargetName(2)}的语音播放。
+ch3_chvon	ch3_chvoff
+	开启/关闭${getVoiceTargetName(3)}的语音播放。
+ch4_chvon	ch4_chvoff
+	开启/关闭${getVoiceTargetName(4)}的语音播放。
+ch5_chvon	ch5_chvoff
+	开启/关闭${getVoiceTargetName(5)}的语音播放。
+ch6_chvon	ch6_chvoff
+	开启/关闭${getVoiceTargetName(6)}的语音播放。
+ch7_chvon	ch7_chvoff
+	开启/关闭${getVoiceTargetName(7)}的语音播放。
+ch8_chvon	ch8_chvoff
+	开启/关闭${getVoiceTargetName(8)}的语音播放。
+ch9_chvon	ch9_chvoff
+	开启/关闭${getVoiceTargetName(9)}的语音播放。
+ch10_chvon	ch10_chvoff
+	开启/关闭${getVoiceTargetName(10)}的语音播放。
+ch11_chvon	ch11_chvoff
+	开启/关闭${getVoiceTargetName(11)}的语音播放。
+ch12_chvon	ch12_chvoff
+	开启/关闭${getVoiceTargetName(12)}的语音播放。
+
+
+ch0test
+	试听${getVoiceTargetName(0)}的语音示例。
+ch1test
+	试听${getVoiceTargetName(1)}的语音示例。
+ch2test
+	试听${getVoiceTargetName(2)}的语音示例。
+ch3test
+	试听${getVoiceTargetName(3)}的语音示例。
+ch4test
+	试听${getVoiceTargetName(4)}的语音示例。
+ch5test
+	试听${getVoiceTargetName(5)}的语音示例。
+ch6test
+	试听${getVoiceTargetName(6)}的语音示例。
+ch7test
+	试听${getVoiceTargetName(7)}的语音示例。
+ch8test
+	试听${getVoiceTargetName(8)}的语音示例。
+ch9test
+	试听${getVoiceTargetName(9)}的语音示例。
+ch10test
+	试听${getVoiceTargetName(10)}的语音示例。
+ch11test
+	试听${getVoiceTargetName(11)}的语音示例。
+ch12test
+	试听${getVoiceTargetName(12)}的语音示例。
+
+
+
+#------------------------------------------------------------------------------
+# ダイアログ
+
+cf_save_on	cf_save_off
+	切换保存进度时是否显示确认对话框。
+
+cf_overwrite_on	cf_overwrite_off
+	切换覆盖存档时是否显示确认对话框。
+
+cf_load_on	cf_load_off
+	切换读取进度时是否显示确认对话框。
+
+cf_qsave_on	cf_qsave_off
+	切换快速保存时是否显示确认对话框。
+
+cf_qload_on	cf_qload_off
+	切换快速读取时是否显示确认对话框。
+
+cf_jump_on	cf_jump_off
+	切换从对话记录跳转场景时是否显示确认对话框。
+
+cf_next_on	cf_next_off
+	切换跳至下一选项前是否显示确认对话框。
+
+cf_backto_on	cf_backto_off
+	切换返回上一选项前是否显示确认对话框。
+
+cf_title_on	cf_title_off
+	切换返回标题画面前是否显示确认对话框。
+
+cf_exit_on	cf_exit_off
+	切换退出游戏前是否显示确认对话框。
+
+cf_init_on	cf_init_off
+	切换初始化设置前是否显示确认对话框。
+
+cf_quitreplay_on	cf_quitreplay_off
+	切换返回鉴赏画面前是否显示确认对话框。
+
+cf_resetpos_on	cf_resetpos_off
+	切换恢复初始位置前是否显示确认对话框。
+
+
+
+#------------------------------------------------------------------------------
+# ショートカット
+
+# ※設定項目無し
