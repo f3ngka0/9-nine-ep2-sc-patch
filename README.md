@@ -11,11 +11,6 @@
 
 注：R18内容没有翻译
 
-菜单、提示与帮助文本（5 个纯文本配置文件 + 默认语言设置）：
-
-default.tjs：将首次启动默认语言标签设为 "cn"，菜单标题改为 "&Simplified Chinese"。
-syslangtext_cn.ini、syslangtext_jp.ini、syslangtext_en.ini、help_conf_cn.txt、help_exch_cn.txt：全部译为简体中文，并补齐了官方原版遗留的所有 [CN-STUB] 日文未译占位符与 (CN)←Drop to Load,Click to Save 简易存取提示。
-
 ## 安装与卸载
 
 - **安装**：运行 `dist/9-nine-ep2-sc-patch/安装补丁.bat`，或将 `video` 文件夹复制到游戏根目录。若此前保存过其他语言设置，可在菜单 `Language -> Simplified Chinese` 或 Config 中切换。**安装脚本默认游戏安装在C盘，如果安装在其他盘符请先将其复制到游戏根目录**
