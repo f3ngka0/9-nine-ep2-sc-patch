@@ -13,6 +13,6 @@
 
 ## 安装与卸载
 
-- **安装**：运行 `dist/9-nine-ep2-sc-patch/安装补丁.bat`，或将 `video` 文件夹复制到游戏根目录。若此前保存过其他语言设置，可在菜单 `Language -> Simplified Chinese` 或 Config 中切换。**安装脚本默认游戏安装在C盘，如果安装在其他盘符请先将其复制到游戏根目录**
+- **安装**：运行 `dist/9-nine-ep2-sc-patch/安装补丁.bat`，或将 `video` 文件夹复制到游戏根目录。若此前保存过其他语言设置，可在菜单 `Language -> Simplified Chinese` 或 Config 中切换。**安装脚本默认游戏安装在C盘，如果安装在其他盘符请先将补丁复制到游戏根目录**
 - **卸载**：运行 `卸载补丁.bat`，或删除游戏目录下的 `video` 文件夹。
 
